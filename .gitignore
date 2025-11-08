@@ -1,0 +1,19 @@
+# Ignore data files and large archives
+data/
+*.zip
+*.tar
+*.gz
+*.db
+
+# Ignore Python cache and system files
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files
+.env
+venv/
