@@ -126,7 +126,7 @@ Focus on films with proven audience approval (high ratings) and profitability. C
 │   ├── Production Budget vs Box Office Revenue.png
 │   └── Tycoon.jpg
 ├── presentation/
-│    ├── presentation.pptx
+│   ├── presentation.pptx
 ├── .gitignore
 └── README.md
 
