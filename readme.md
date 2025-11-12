@@ -1,7 +1,7 @@
 # Movie Industry Analysis – Phase 2 Project
 
 ## Team Members
-- Dennis
+- Dennis - - main
 - Shem
 - Vkones
 - Jasho
