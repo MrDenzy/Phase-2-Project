@@ -28,11 +28,11 @@ After data cleaning, transformation, and visualization, we identify patterns tha
 
 The studio’s challenge is to determine what makes movies successful. Success can be defined differently — by high audience ratings, strong profitability, or both. Our goal is to use historical movie data to identify:
 
-Genres with consistently high audience ratings.
+1. Genres with consistently high audience ratings.
 
-Genres that deliver the highest profitability (ROI).
+2. Genres that deliver the highest profitability (ROI).
 
-The relationship between production budgets and box office earnings.
+3. The relationship between production budgets and box office earnings.
 
 These insights will help the studio allocate resources effectively and reduce financial risk in its early productions.
 
@@ -116,10 +116,10 @@ Focus on films with proven audience approval (high ratings) and profitability. C
 ├── data/
 ├── notebooks/
 │   ├── dennis.ipynb
-│   ├── shem.ipynb
-│   ├── vkones.ipynb
+│   ├── jasho.ipynb
 │   ├── main.ipynb
-│   └── jasho.ipynb
+│   ├── shem.ipynb
+│   └── vkones.ipynb
 ├── output/
 │   ├── Average Movie ratings by Genre.png
 │   ├── Average Profitability by Genre.png
