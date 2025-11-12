@@ -13,11 +13,11 @@ This project uses descriptive data analysis and visualization to explore trends 
 
 The analysis answers three key business questions:
 
-Genre & Ratings: Which movie genres receive the highest audience ratings?
+**Genre & Ratings**: Which movie genres receive the highest audience ratings?
 
-Genre & Profitability: Which genres are most profitable relative to production costs?
+**Genre & Profitability**: Which genres are most profitable relative to production costs?
 
-Budget & Revenue: How do production budgets relate to box office performance?
+**Budget & Revenue**: How do production budgets relate to box office performance?
 
 After data cleaning, transformation, and visualization, we identify patterns that guide recommendations for the new studio’s investment strategy.
 
@@ -42,7 +42,7 @@ Download from our shared Google Drive folder: [(https://drive.google.com/drive/f
 Place all files inside the `data/` directory before running notebooks.
 
 ## Methods
- * Data Cleaning
+ * __Data Cleaning__
     * Merged datasets from IMDb, Rotten Tomatoes, and Box Office Mojo into a unified dataframe.
 
     * Cleaned monetary columns (removed $ and ,), converting them to numeric types.
@@ -57,7 +57,7 @@ Place all files inside the `data/` directory before running notebooks.
 
     * Main Genre: Extracted from the first genre ID.
 
- * Data Visualization
+ * __Data Visualization__
 
 We created visualizations to answer our key research questions:
 
@@ -69,42 +69,45 @@ We created visualizations to answer our key research questions:
 
 ## Results
 
-* How do genres perform by Ratings
+* **How do genres perform by Ratings**
+
 History and Music films have the highest average ratings, while TV Movies and Westerns receive the lowest.
 
 ![Ratings_by_Genre](./output/Average%20Movie%20Ratings%20by%20Genre.png)
 
-* How do genres perform by Profitability
+* **How do genres perform by Profitability**
+
 Horror and Family films are the most profitable genres, often delivering high returns despite modest production budgets.
 
 ![Profitability_by_Genre](./output/Average%20Profitability%20by%20Genre.png)
 
-* How do production budgets relate to box office revenue
+* **How do production budgets relate to box office revenue**
+
 There is a strong positive relationship between budget and revenue(0.75) — larger budgets tend to yield higher box office returns. However, the correlation is not perfect, suggesting that spending more does not guarantee profitability.
 
 ![Budget_vs_Revenue](./output/Production%20Budget%20vs%20Box%20Office%20Revenue.png)
 
 
 ## Conclusions
-1. Prioritize Profitable Genres
+1. __Prioritize Profitable Genres__
 
 Invest in Horror, Family, and Adventure films. Horror offers exceptional ROI on low-budget projects, while Family and Adventure films reliably combine audience appeal with strong financial performance.
 
-2. Balance Budget and Risk
+2. __Balance Budget and Risk__
 
 High-budget productions (e.g., Action, Sci-Fi) can achieve large box office returns, but careful budgeting and ROI management are essential. Diversifying the portfolio between high- and low-budget films reduces financial risk.
 
-3. Data-Driven Production Strategy
+3. __Data-Driven Production Strategy__
 
 Focus on films with proven audience approval (high ratings) and profitability. Combining top-rated genres with strategic investment in low-risk, high-return projects will maximize both studio reputation and revenue potential.
 
 ## Project Limitations & Recommendations
 
-1. Genre Analysis: Only the primary genre was considered for each film, which may overlook multi-genre influences on ratings and profitability.
+1. __Genre Analysis__: Only the primary genre was considered for each film, which may overlook multi-genre influences on ratings and profitability.
 
-2. Incomplete Financial Metrics: Marketing costs and inflation adjustments were not included, so profitability estimates may not fully reflect true ROI.
+2. __Incomplete Financial Metrics__: Marketing costs and inflation adjustments were not included, so profitability estimates may not fully reflect true ROI.
 
-3. Scope of Data: The datasets primarily cover mainstream films; independent, international, or non-English films may exhibit different patterns and should be analyzed in future studies.
+3. __Scope of Data__: The datasets primarily cover mainstream films; independent, international, or non-English films may exhibit different patterns and should be analyzed in future studies.
 
 
 ## Repository Structure
